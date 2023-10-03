@@ -1,0 +1,90 @@
+.container {
+  width: 750px;
+  height: 650px;
+  margin: auto;
+  margin-top: 3rem;
+  background: linear-gradient(
+    243.4deg,
+    rgb(0, 41, 95) 13%,
+    rgb(82, 0, 177) 98%
+  );
+  border-radius: 25px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 60px;
+}
+.cityInput {
+  height: 65px;
+  width: 65%;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  color: gray;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+.searchIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  background-color: whitesmoke;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.weatherImg {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.weatherTemp {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+.weatherLocation {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+.element {
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex-direction: row;
+}
+.dataContainer {
+  color: white;
+  display: flex;
+  margin-top: 85px;
+}
+.data {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 400;
+  flex-direction: column;
+}
+.humidityText {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 200;
+}
+.windSpeedText {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 200;
+}
