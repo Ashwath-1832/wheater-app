@@ -4,11 +4,12 @@
   margin: auto;
   margin-top: 3rem;
   background: linear-gradient(
-    243.4deg,
-    rgb(0, 41, 95) 13%,
-    rgb(82, 0, 177) 98%
+    179.4deg,
+    rgb(12, 20, 69) -16.9%,
+    rgb(71, 30, 84) 119.9%
   );
   border-radius: 25px;
+  box-shadow: 0 0 150px rgba(0, 0, 0, 0.5); /* Add a shadow with a 10px blur and a 0.5 opacity */
 }
 
 .topBar {
@@ -90,6 +91,11 @@
 }
 .backGround {
   position: fixed;
+  background: linear-gradient(
+    178.1deg,
+    rgb(60, 55, 106) 8.5%,
+    rgb(23, 20, 69) 82.4%
+  );
   top: 0;
   left: 0;
   width: 100%;

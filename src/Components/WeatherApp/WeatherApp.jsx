@@ -71,15 +71,14 @@ const WeatherApp = () => {
 
   return (
     <div>
-      <div className="backGround">
-        <img src={background} />
-      </div>
+      <div className="backGround">{/* <img src={background} /> */}</div>
       <div className="container">
         <div className="topBar">
           <input
             type="text"
             placeholder="Search Location"
             className="cityInput"
+            style={{ fontFamily: "Gabarito" }}
           ></input>
           <div
             className="searchIcon"
